@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.iiitd.apurupa.mcassignment3.savedatademo.CreateStActivity">
+    <EditText
+        android:id="@+id/st_nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="164dp"
+        android:singleLine="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Roll no"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/st_rolltext"
+        android:layout_below="@+id/st_nametext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Course Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/st_coursetext"
+        android:layout_below="@+id/st_rolltext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:id="@+id/createsavebutton"
+        android:layout_below="@+id/st_coursetext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/createcancelbutton"
+        android:layout_alignTop="@+id/createsavebutton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="STUDENT DETAILS"
+        android:id="@+id/textView"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/createcancelbutton"
+        android:layout_toStartOf="@+id/createcancelbutton" />
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SaveDataDemo</string>
+    <string name="use_sql">USE SQL</string>
+</resources>
